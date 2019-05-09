@@ -1,0 +1,1440 @@
+html { 
+    background: url(Pictures/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+header {
+        width: 100%;
+        display: flex;
+        background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+        height: 80px;
+        top: 0px;
+        position: fixed;
+        left: 0px;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+  }
+figure {
+  width: 150px;
+  max-width: 150px;
+}
+div.home a {
+     text-decoration: none;
+     margin-left: 55px;
+     font-family: fantasy;
+     font-size: larger;
+}
+.hometab {
+  text-decoration: none;
+  color:white;
+  margin-left: 55px;
+  font-family: fantasy;
+  font-size: larger;
+}
+.home2 {
+  text-decoration: none;
+  color:rgb(126, 46, 0);
+  margin-left: 55px;
+  font-family: fantasy;
+  font-size: larger;
+} 
+.home2:hover {
+  color: white;
+}
+.news2:hover a {
+  color: white;
+  cursor: pointer;
+}
+.news2 {
+  text-decoration: none;
+     color: rgb(126, 46, 0);
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+.store2 {
+  text-decoration: none;
+     color: rgb(126, 46, 0);
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+.store2:hover {
+  color: white;
+  cursor: pointer;
+}
+.releases2 {
+  text-decoration: none;
+     color: rgb(126, 46, 0);
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+div.news a {
+    text-decoration: none;
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+a#newsTabHeader:hover {
+  color:white;
+}
+div.platforms a {
+    text-decoration: none;
+     font-family: fantasy;
+     font-size: larger;
+}
+
+div.store a {
+    text-decoration: none;
+    font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+
+div.about a {
+    text-decoration: none;
+     color: rgb(126, 46, 0);
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+
+img.imagelogo {
+    border-radius: 0px 100px 1px 0px;
+    width: 266px;
+    height: 80px;
+}
+
+input.search {
+    margin-right: 0px;
+    border-radius: 25px;
+    background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+    border-color: white;
+    text-decoration-color: none;
+    color: white;
+    outline: none;
+}
+
+input.search::placeholder {
+    color: white;
+}
+
+div.webmenu {
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+    width: 70%;
+    background-color: rgba(43, 40, 40, 0.808);
+    margin-top: 80px;
+}
+
+div.video-player {
+    height: 300px;
+    width: 100%;
+}
+
+
+iframe.video1 {
+    border-color: rgba(2, 2, 2, 0)
+}
+
+div.video-player {
+    margin-top: 100px;
+}
+
+
+div.newgames {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.firstspan {
+    
+    height: 100%;
+    display: flex;
+}
+span.span1 {
+    color:whitesmoke;
+    align-self: center;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+
+header div a:hover {
+    color: white;
+}
+
+div.popular {
+    height: 200px;
+    width: 100%;
+}
+div.usermenu {
+  display: flex;
+    text-decoration: none;
+    color: rgb(126, 46, 0);
+    margin-left: 55px;
+    font-family: fantasy;
+    font-size: larger;
+    margin-left: 0px;
+    margin-right: 40px;
+    animation: bounceIn 1s;
+}
+span.userError {
+  position: absolute;
+  top: 150px;
+  color: white;
+  background-color: red;
+  font-family: fantasy;
+  font-size: 18px;
+}
+span.passError {
+  position: absolute;
+  top: 212px;
+  color: white;
+  background-color: red;
+  font-family: fantasy;
+  font-size: 18px;
+}
+div.usermenu div.login:hover::after {
+  color:rgb(126, 46, 0);
+}
+div.usermenu div.login::after{
+  content: "|"
+}
+div.usermenu div.login:hover {
+  color: white;
+  cursor: pointer;
+}
+div.usermenu div.register:hover {
+  color: white;
+  cursor: pointer;
+}
+
+ul.weblist {
+    padding: 0px;
+    width: 100%;
+    margin-top: 0px;
+    list-style-type: none; 
+    animation: bounceInRight 2s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+  
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+   
+  }
+  #htmls body::-webkit-scrollbar-thumb {
+    background:white;
+   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  div.topgames {
+    display: flex;
+}
+
+img.imagenews1 {
+ width: 100%;
+ height: 400px;
+ position: relative;
+}
+
+div.topgames a {
+ position: absolute;
+ margin-top: 23%;
+ margin-left: 2%;
+ 
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.281)
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.705);
+  height: 100px;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.loginerror {
+  position: absolute;
+    top: 100px;
+    color: white;
+    background-color: red;
+    font-family: fantasy;
+    font-size: 18px;
+}
+#iUser {
+  font-size: 30px;
+  animation: bounceIn 2s;
+}
+#iUser:hover {
+color: white;
+cursor: pointer;
+}
+#iUser:hover div.logoutdiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s;
+}
+div.logoutdiv {
+  font-size: 15px;
+}
+.hidelogin {
+  display: none;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slideshow-container img {
+    height: 400px;
+}
+
+div.text h2 {
+  margin-top: 0px;
+}
+
+
+div.news-menu {
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  width: 100%;
+  height: 50px;
+  margin-top: -21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span.news-span {
+  color: whitesmoke;
+  align-self: center;
+  font-size: 30px;
+  font-family: fantasy;
+  margin-right: 20px;
+}
+
+ul.news-render {
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+}
+ul.news-render:hover {
+  cursor: pointer;
+}
+div.user {
+  height: 10px;
+}
+
+div#newslist {
+  height: 320px;
+  width: 400px;
+  background-color: white;
+}
+
+img#newsimage {
+  width: 313px;
+  height: 320px;
+  position: absolute;
+}
+li#newstitle a{
+  text-decoration: none;
+  color: white;
+}
+
+li#newstitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  color: white;
+  background-color: #0000008c;
+  margin-top: 220px;
+  height: 100px;
+}
+
+li#mainhover div {
+  position: absolute;
+  display: flex;
+  width: 313px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: fantasy;
+  background-color:#0000008c;
+  opacity: 0; 
+  cursor: pointer;
+}
+
+li div img {
+  height: 100px;
+}
+
+div#newslist:hover li#mainhover div {
+ opacity: 1;
+}
+span#spantitle {
+  justify-self: center;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img#siteLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+}
+div.loginpopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background: #13121278;
+  display: flex;
+  justify-content: center;
+  animation: growIn 2s;
+}
+div.login {
+  animation: bounceIn 2s;
+}
+div.register {
+  animation: bounceIn 2s;
+}
+div.registerpopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background: #13121278;
+  display: flex;
+  justify-content: center;
+  animation: bounceInLeft 2s;
+}
+div.loginform {
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  margin-top: 217px;
+  background:linear-gradient(rgb(255, 186, 57,0.6), rgb(255, 65, 0)); 
+  width: 50%;
+}
+div.registerform {
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  margin-top: 217px;
+  background:linear-gradient(rgb(255, 186, 57,0.6), rgb(255, 65, 0)); 
+  width: 50%;
+}
+span.registerSpan {
+  position: absolute;
+    bottom: 0px;
+    color: white;
+    font-family: fantasy;
+    font-size: 23px;
+}
+span.loginSpan {
+  position: absolute;
+    bottom: 0px;
+    color: white;
+    font-family: fantasy;
+    font-size: 23px;
+}
+.registerHere {
+  cursor: pointer;
+  color: rgb(56, 20, 0);
+  text-decoration: underline;
+}
+.loginHere {
+  cursor: pointer;
+  color: rgb(56, 20, 0);
+  text-decoration: underline;
+}
+.loginHere:hover {
+  color: white;
+}
+.registerHere:hover {
+  color:white;
+}
+.loginspantext {
+  color: white;
+  font-size: 60px;
+  font-family: fantasy;
+  height: 25%;
+  z-index: 1;
+}
+.registerspantext {
+  color: white;
+  font-size: 60px;
+  font-family: fantasy;
+  height: 25%;
+  z-index: 1;
+}
+
+button.submitLogin {
+  position: absolute;
+  bottom: 40px;
+  width: 80px;
+  height: 50px;
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  color: white;
+  font-family: fantasy;
+  font-size: 27px;
+  cursor: pointer;
+}
+button.submitRegister {
+  position: absolute;
+  bottom: 40px;
+  width: 110px;
+  height: 50px;
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  color: white;
+  font-family: fantasy;
+  font-size: 27px;
+  cursor: pointer;
+}
+div.closepop {
+  position: absolute;
+  right: 0px;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  cursor: pointer;
+}
+div.closeregister {
+  position: absolute;
+  right: 0px;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  cursor: pointer;
+}
+ul#newsUL {
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  animation: fadeIn 8s;
+}
+.newsTab {
+  width: 100%;
+  height: 300px;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  border-color: rgb(255, 115, 0);
+  border-style: solid;
+}
+.newsTab:hover span.news-spans {
+  text-decoration: underline;
+  transform: scale(1.005);
+  transition: transform .2s;
+}
+.newsTab:hover .newsImages {
+  transform: scale(1.005);
+}
+.newsTab:hover .newsHeadline {
+  transform: scale(1.005);
+  transition: transform .2s;
+}
+.newsTab:hover {
+  cursor: help;
+  flex-direction: column;
+  height: auto;
+}
+
+.newsImages {
+  width: 932px;
+  height: 294px;
+  position: absolute;
+  transition: transform .2s;
+}
+.news-spans {
+  position : relative;
+  list-style-type: none;
+  color: white;
+  margin-left: 10px;
+  font-family: fantasy;
+  font-size: 39px;
+}
+.newsHeadline {
+  background-color: #0000008c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    flex-direction: column;
+}
+.news-undertext {
+  color: white;
+  margin: 0px;
+  margin-left: 10px;
+  opacity: 0;
+}
+.newsTab:hover .news-undertext {
+  opacity: 1;
+}
+.newsTab:hover .newsHeadline {
+  height: 130px;
+  margin-top: 165px;
+}
+html#htmls body{
+  overflow: scroll;
+  background-color: rgba(255, 115, 0, 0.904);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  height: 300px;
+  margin-bottom: 0px;
+}
+html#htmls body a {
+  color: white;
+}
+html#htmls body h3 {
+  font-size: 40px;
+}
+html#htmls body h2 {
+  font-size: 30px;
+}
+html#htmls body p strong {
+  font-size: 30px;
+}
+
+html#htmls body img {
+   display:flex;
+   height:auto;
+   width: 300px;
+}
+html#htmls body iframe {
+  display:none;
+}
+.articlebody {
+    background-color: orangered;
+    font-size: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+    bottom: 0px;
+    display:none;
+   color:  rgb(126, 46, 0);
+    font-family: fantasy;
+    width: 100%;
+
+}
+.newsTab:hover .articlebody{
+  height: auto;
+  background-color: orangered;
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+  bottom: 0px;
+  display:flex;
+  animation: fadeInDownShort 1s;
+}
+.is-disabled {
+  pointer-events: none;
+  color: white;
+}
+.is-disabledtwo {
+  pointer-events: none;
+  color: white;
+}
+.is-disabledthree{
+  pointer-events: none;
+  color: white;
+}
+.user-input {
+  position: absolute;
+    bottom: 170px;
+    width: 50%;
+    height: 34px;
+    z-index: 1;
+}
+.user-reginput {
+  position: absolute;
+    bottom: 183px;
+    width: 50%;
+    height: 34px;
+    z-index: 1;
+}
+input.passinput {
+  position: absolute;
+    bottom: 120px;
+    width: 50%;
+    height: 34px;
+    z-index: 1;
+}
+input.pass-reginput {
+  position: absolute;
+    bottom: 120px;
+    width: 50%;
+    height: 34px;
+    z-index: 1;
+}
+img.userimg {
+  z-index: 0;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+}
+.is-disabledtwo::after {
+  content: "|";
+  color: rgb(126, 46, 0);
+}
+
+div.user-options {
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+    background-color: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 79px;
+    margin: 0 auto;
+    width: 20%;
+    height: 40px;
+    color: white;
+    font-family: fantasy;
+    z-index: 1;
+}
+
+div.logoutdiv {
+  height: 48px;
+  right: 158px;
+  top: 55px;
+  width: 103px;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display:none;
+}
+div.logoutdiv span {
+  color: orangered;
+  font-family: fantasy;
+}
+
+div.logoutdiv span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+li.store-menu {
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0));
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.store-menu span {
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+}
+ul.game-list {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 5px;
+  height: 500px;
+
+}
+div.checkoutStore {
+      opacity: 0;
+      position: absolute;
+      color: white;
+      font-style: fantasy;
+      width: 233px;
+      font-family: fantasy;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      font-size: 32px;
+      cursor: pointer;
+}
+li.games:hover div.checkoutStore {
+  opacity: 1;
+  background: #00000070;
+      position: absolute;
+      color: white;
+      font-style: fantasy;
+      width: 233px;
+      font-family: fantasy;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      font-size: 32px;
+      cursor: pointer;
+}
+li.games {
+  display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+li.games img {
+  width:230px;
+  margin-right: 3px;
+  height: 200px;
+  margin-left: 2px;
+}
+li.games span {
+  color: rgb(126, 46, 0);
+  font-family: fantasy;
+}
+li.games h1 {
+  color: white;
+  font-family: fantasy;
+  align-self: center;
+}
+li.games div {
+  width: 230px;
+  flex-direction: column;
+  margin-left: 1px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgb(255, 186, 57), rgb(255, 65, 0)); 
+  height: 310px;
+}
+.regsuccess {
+  position: absolute;
+  bottom: 240px;
+  color: greenyellow;
+  font-family: fantasy;
+  font-size: 50px;
+  animation: fadeIn 2s;
+}
+
+.storepage {
+  display: none;
+}
+
+.shopmenu {
+  margin: 0 auto;
+    display: flex;
+    height: auto;
+    width: 70%;
+    background-color: rgba(43, 40, 40, 0.808);
+    margin-top: 80px;
+}
+.shopul {
+  display: flex;
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  flex: 0 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    animation: bounceIn 3s;
+}
+.gameDiv {
+  width: 200px;
+  height: 300px;
+  margin-left: 28px;
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+.gameDiv img {
+  height: 200px;
+  width: 200px;
+}
+.game-name {
+  color: orangered;
+  font-family: fantasy;
+}
+
+.gameDiv p {
+  color:white;
+  font-family: fantasy;
+}
+.add-tocart {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: orangered;
+  font-family: fantasy;
+  border: none;
+  border-radius: 50px;
+  border-color: none;
+  margin-bottom: 5px;
+}
+div.shoppingCart {
+  margin-right: 70px;
+  text-decoration: none;
+     color: rgb(126, 46, 0);
+     font-family: fantasy;
+     font-size: larger;
+     cursor: pointer;
+}
+
+div.shoppingCart:hover {
+  color: white;
+}
+div.cartDiv {
+  display: flex;
+  background: rgba(4, 4, 4, 0.9);
+  flex-direction: column;
+  height: auto;
+  width: 400px;
+  position: absolute;
+  right: 1px;
+  display:none;
+  animation: fadeIn 2s;
+}
+
+div.cartMenu:hover div.cartDiv {
+  display: flex;
+}
+button.clearCart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+    bottom: 0px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    font-family: fantasy;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    left: 150px;
+}
+.gameTextDiv {
+  color: orangered;
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+table {
+  color: white;
+}
+div.totalldiv {
+  color: white;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+ background-color: gray;
+}
+.gameTextDiv:hover {
+  color: white;
+}
+.gameTextDiv:hover span {
+  color: white;
+}
+
+span.gprice {
+  display: none;
+}
+
+.dollars {
+  margin-left: 15px;
+}
+
+table.cartTable th {
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+img.gameCartImage {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+div.contentDiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button.btn-remove {
+  background-color: red;
+  color: white;
+  font-family: fantasy;
+  border: none;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+button.btn-remove:hover {
+  background-color:gray;
+}
+input.game-quantity {
+  width: 42px;
+    margin-left: 60px;
+}
+
+
+#releasemenu {
+  cursor: pointer;
+}
+
+.releaseUL {
+  padding: 0;
+  display: flex;
+  margin-bottom: 0px;
+  animation: bounceInRight 2s;
+}
+div.days-header img{
+  width: 100%;
+  position: relative;
+  
+}
+div.days-header {
+  width: 70%;
+  display: flex;
+  position: relative;
+  margin-left: 3px;
+  cursor: pointer;
+}
+div.days-header:hover img {
+  transform: scale(1.01);
+  transition: transform .75s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+div.days-header:hover div.daysgone-spandiv {
+  transform: scale(1.01);
+  transition: transform .75s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    height: 115px;
+    width: 568px;
+    bottom: -2px;
+}
+.releaseh1 {
+  position: absolute;
+}
+div.daysgone-spandiv{
+  position: absolute;
+  width: 568px;
+  background-color: #000000ba;
+  height: 110px;
+  bottom: 0px;
+  display: flex;
+    flex-direction: column;
+}
+
+
+.daysrelease {
+  color: white;
+  font-family: fantasy;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.goneDeck {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  margin-left: 5px;
+}
+
+img.mkimg {
+  height: 447px;
+  width: 355px;
+  position: absolute;
+  cursor: pointer;
+}
+.mkEleven:hover img.mkimg {
+  transform: scale(1.01);
+  transition: transform .75s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.mkEleven:hover .mkSpantxt {
+  transform: scale(1.01);
+  transition: transform .75s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    bottom: 1px;
+    cursor: pointer;
+}
+img.daysgoneImg {
+      width: 100%;
+    position: relative;
+}
+
+div.mkheadDiv {
+  margin-left: 8px;
+}
+
+div.mkEleven {
+  height: 450px;
+  position: relative;
+}
+
+.mkSpantxt {
+  position: absolute;
+  background-color: #0000008c;
+  bottom: 3px;
+  height: 90px;
+  width: 355px;
+  font-family: fantasy;
+  color: white;
+  font-size: 32px;
+}
+ul.rsecondul {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.worldwardiv {
+  width: 60%;
+  height: auto;
+  margin-left: 3px;
+}
+
+.wwzImg {
+  height: 300px;
+  width: 100%;
+}
+
+.wwztxt {
+  height: auto;
+  width: 100%;
+}
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+.wwzspan {
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+div.worldwardiv:hover div.wwztxt {
+  border-radius: 0px 20px 20px 0px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(136, 5, 5, 0.664));
+  animation: wiggle 1s;
+  transition: 0.75s ease-out;
+}
+
+div.upcoming {
+  width: 39%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.upSpan {
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+  height: 40px;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+}
+.topList {
+  height: 100%;
+  padding: 0px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.topListLi {
+  height: 60px;
+  position: relative;
+}
+.list-itemimg {
+  height: 100%;
+  width: 100%;
+}
+.listbackgr {
+  position: absolute;
+    background-color: #000000a1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.listbackgr:hover .bggamesHeader {
+  color: white;
+}
+.listbackgr:hover {
+  background-color:#00000038;
+}
+.bggamesHeader {
+  color: orangered;
+  font-family: fantasy;
+  font-size: 20px;
+}
+.bgrelease2 {
+  color: #c7bbbb;
+  font-family: fantasy;
+  font-size: 13px;
+}
+.aboutUl {
+  padding: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.aboutDimg {
+width: 100%;
+height: 300px;
+}
+.aboutDaysDiv {
+  background-color:rgba(255, 115, 0, 0.904);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.abtdaysspan {
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.aboutdaysheader {
+  color: white;
+  font-family: fantasy;
+}
+.aboutsecondimage {
+  width: 100%;
+  height: 300px;
+}
+.aboutsecondspan {
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+
+}
+
+.aboutMKDiv {
+  background-color:rgba(255, 115, 0, 0.904);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aboutmkimg {
+width: 100%;
+height: 300px;
+}
+.aboutMKSpan {
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.mkcharacter1 {
+  width: 100%;
+  height: 300px;
+}
+
+.aboutgeras {
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+}
+.aboutCetrion{
+  width: 100%;
+  height: 300px;
+}
+
+.aboutcetrionspan {
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+div.footer {
+  width: 100%;
+  height: 60px;
+  background: #000000db;
+  position: absolute;
+  left: 0px;
+  color: white;
+  font-family: fantasy;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+}
+
+
+.footerlogo {
+  height: 45px;
+  width: 70px;
+}
+.footerlogo2 {
+  height: 45px;
+  width: 120px;
+}
+html {
+  scroll-behavior: smooth;
+}
